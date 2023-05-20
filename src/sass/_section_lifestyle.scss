@@ -12,10 +12,22 @@
   background-color: $metallic_copper;
 }
 
+.lifestyle-static__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .lifestyle__logo {
   position: absolute;
   top: 56px;
   left: 78px;
+}
+
+.lifestyle-static__name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .lifestyle__name {
@@ -27,4 +39,9 @@
   font-size: 24px;
   line-height: 1.37;
   color: $white;
+}
+
+.lifestyle__slider {
+  position: absolute;
+  right: 0;
 }
