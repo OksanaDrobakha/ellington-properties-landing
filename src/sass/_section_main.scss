@@ -1,0 +1,73 @@
+.main__container {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+  height: 720px;
+  padding: 0 78px;
+  margin: 0 auto;
+
+  background-image: url('../images/header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 77px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 25, 54, 0.2) 0%,
+    rgba(30, 30, 30, 0.2) 54.17%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  width: 539px;
+  height: 720px;
+}
+
+.header__button {
+  position: absolute;
+  top: 624px;
+  right: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 300px;
+  height: 40px;
+  background: $metallic_copper;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &:hover,
+  &:focus {
+    background: $copper_foil;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.header__link {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.37;
+  color: $deep_blue;
+  &:hover,
+  &:focus {
+    color: $white;
+  }
+}
+
+.main__decoration {
+  position: absolute;
+  bottom: 0;
+  width: 539px;
+  height: 16px;
+  background: $deep_blue;
+}

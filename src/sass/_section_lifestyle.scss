@@ -1,0 +1,30 @@
+.lifestyle__container {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+  max-width: 1280px;
+  width: 100%;
+  height: 720px;
+  padding: 0 78px;
+  margin: 0 auto;
+  background-color: $metallic_copper;
+}
+
+.lifestyle__logo {
+  position: absolute;
+  top: 56px;
+  left: 78px;
+}
+
+.lifestyle__name {
+  position: absolute;
+  bottom: 296px;
+  left: 622px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.37;
+  color: $white;
+}

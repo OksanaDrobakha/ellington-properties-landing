@@ -1,0 +1,83 @@
+// .footer {
+//   position: sticky;
+// }
+
+.footer__container {
+  position: relative;
+  background-color: $deep_blue;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  padding: 61px 78px 78px 78px;
+  margin: 0 auto;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer__comment {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.37;
+  color: $white;
+  margin-bottom: 12px;
+}
+
+.footer__form {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__label {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $white;
+}
+
+.footer__input {
+  padding: 10px;
+  border: 1px solid #fff;
+  width: 247px;
+}
+
+.footer__button {
+  width: 150px;
+  height: 40px;
+
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.37;
+  text-align: center;
+  color: $deep_blue;
+
+  background: $metallic_copper;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &:hover,
+  &:focus {
+    color: $white;
+    background: $copper_foil;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.footer__decoration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 16px;
+  background: $metallic_copper;
+}
