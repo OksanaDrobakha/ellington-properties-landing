@@ -1,10 +1,10 @@
 'use strict';
 
 new Swiper('.image-slider', {
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+  // navigation: {
+  //   nextEl: '.swiper-button-next',
+  //   prevEl: '.swiper-button-prev',
+  // },
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -18,7 +18,8 @@ new Swiper('.image-slider', {
     onlyInViewport: true,
   },
   slidesPerView: 3,
-  spaceBetween: 51,
+  spaceBetween: 52,
+  watchSlidesProgress: true,
   zoom: {
     maxRatio: 3,
     minRatio: 1,
