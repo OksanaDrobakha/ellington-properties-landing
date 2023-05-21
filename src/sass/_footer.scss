@@ -58,6 +58,10 @@
     line-height: 1.37;
     color: #a4a7a9;
   }
+
+  &._error {
+    box-shadow: 0 0 15px red;
+  }
 }
 
 .footer__button {
