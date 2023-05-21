@@ -1,4 +1,4 @@
-<section class="eh">
+<section class="eh" id="eh">
   <div class="eh__container">
     <div class="eh__logo">
       <svg
@@ -19,29 +19,81 @@
     </div>
     <h1 class="eh__title">Ellington House</h1>
     <h2 class="eh-title__slogan">For those who dream of elevated living</h2>
-    <picture class="eh__slider">
-      <img
-        class=""
-        src="./images/section1_1_Ellington_House_Clubhouse_view1.jpg"
-        alt=""
-        width="300"
-        height="200"
-      />
-      <img
-        class=""
-        src="./images/section1_2_Exterior_Balcony.jpg"
-        alt=""
-        width="430"
-        height="300"
-      />
-      <img
-        class=""
-        src="./images/section1_3_Ellington_House_Clubhouse_View 2.jpg"
-        alt=""
-        width="300"
-        height="200"
-      />
-    </picture>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="wrapper">
+        <!-- Slides -->
+        <div class="image-slider swiper-container">
+          <div class="image-slider__wrapper swiper-wrapper">
+            <div
+              data-hash="ellington-house-clubhouse-view-1"
+              class="image-slider__slide swiper-slide"
+            >
+              <div class="image-slider__image swiper-zoom-cotainer">
+                <img
+                  src="./images/section1_1_Ellington_House_Clubhouse_view1.jpg"
+                />
+              </div>
+            </div>
+            <div
+              data-hash="exterior-balcony"
+              class="image-slider__slide swiper-slide"
+            >
+              <div class="image-slider__image swiper-zoom-cotainer">
+                <img src="./images/section1_2_Exterior_Balcony.jpg" />
+              </div>
+            </div>
+            <div
+              data-hash="ellington-house-clubhouse-view-2"
+              class="image-slider__slide swiper-slide"
+            >
+              <div class="image-slider__image swiper-zoom-cotainer">
+                <img
+                  src="./images/section1_3_Ellington_House_Clubhouse_View 2.jpg"
+                />
+              </div>
+            </div>
+            <div
+              data-hash="ellington-house-apartment-bedroom"
+              class="image-slider__slide swiper-slide"
+            >
+              <div class="image-slider__image swiper-zoom-cotainer">
+                <img
+                  src="./images/section1_4_Ellington_House_Apartment_Bedroom.jpg"
+                />
+              </div>
+            </div>
+            <div
+              data-hash="ellington-house-apartment-kitchen"
+              class="image-slider__slide swiper-slide"
+            >
+              <div class="image-slider__image swiper-zoom-cotainer">
+                <img
+                  src="./images/section1_5_Ellington_House_Apartment_Kitchen.jpg"
+                />
+              </div>
+            </div>
+            <div
+              data-hash="ellington-house-apartment-living-room"
+              class="image-slider__slide swiper-slide"
+            >
+              <div class="image-slider__image swiper-zoom-cotainer">
+                <img
+                  src="./images/section1_6_Ellington_House_Apartment_Living_Room.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
     <p class="eh__description">
       Ellington House reaches for the pinnacle of comfort, style and serenity
       that culminates from beauty by design. An alluring new addition to the
