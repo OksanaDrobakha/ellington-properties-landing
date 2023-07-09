@@ -2,13 +2,13 @@
 
 new Swiper('.image-slider', {
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination-eh',
     clickable: true,
     dynamicBullets: true,
   },
-  hashNavigation: {
-    watchState: true,
-  },
+  // hashNavigation: {
+  //   watchState: true,
+  // },
   keyboard: {
     enabled: true,
     onlyInViewport: true,
